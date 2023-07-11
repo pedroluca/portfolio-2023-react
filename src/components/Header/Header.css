@@ -1,0 +1,41 @@
+@import '../../variables.css';
+
+.header-bar {
+  height: 4rem;
+  /* background: #000; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--font-color);
+  padding: 0 1rem;
+  font-weight: 400;
+}
+
+.header-bar a {
+  color: var(--font-color);
+  transition: ease-in-out .2s;
+}
+
+.header-bar nav a:hover {
+  color: var(--font2-color);
+}
+
+.header-bar nav {
+  display: flex;
+  gap: 2rem;
+  font-size: 1rem;
+}
+
+.header-bar span.fix-size {
+  visibility: hidden;
+}
+
+.header-bar span a {
+  background: rgb(30,144,255);
+  background: linear-gradient(37deg, rgba(30,144,255,1) 0%, rgba(227,216,241,1) 92%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

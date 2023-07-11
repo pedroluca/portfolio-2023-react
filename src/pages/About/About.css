@@ -1,0 +1,41 @@
+@import '../../variables.css';
+
+section#about {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+}
+
+section#about img {
+  width: 48%;
+}
+
+section#about div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+section#about div p {
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+section h4 {
+  color: var(--font2-color);
+}
+
+blockquote {
+  line-height: 2rem;
+  font-size: 1.2rem;
+  color: var(--font2-color);
+  border-left: 2px solid gray;
+  padding-left: 2rem;
+}

@@ -1,13 +1,67 @@
-body {
+@import './variables.css';
+
+::-webkit-scrollbar {
+  width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-color);
+  border-radius: 30px;
+}
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif; */
+  font-family: 'Tomorrow', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--bg-color);
+  color: var(--font-color);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+  text-decoration: none;
+  /* color: var(--font-color); */
+}
+
+.page{
+  display: flex;
+  min-height: calc(100vh - 8rem);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.page-column {
+  padding: 2rem 0;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.blue-title {
+  background: rgb(30,144,255);
+  background: linear-gradient(37deg, rgba(30,144,255,1) 0%, rgba(227,216,241,1) 92%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+.big-title {
+  font-size: 2.5rem;
 }

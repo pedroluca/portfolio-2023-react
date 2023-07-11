@@ -1,0 +1,58 @@
+@import '../../variables.css';
+
+.footer-bar {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-bar nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-bar nav a {
+  color: var(--font-color);
+  transition: ease-in .2s;
+  display: flex;
+  align-items: center;
+}
+
+.footer-bar nav a:hover#instagram {
+  color: #fe016b;
+}
+
+.footer-bar nav a:hover#github {
+  color: #b9bbbd;
+}
+
+.footer-bar nav a:hover#linkedin {
+  color: #0a66c2;
+}
+
+.footer-bar nav a:hover#twitter {
+  color: #1d9bf0;
+}
+
+.footer-bar nav a:hover#youtube {
+  color: #f00;
+}
+
+.footer-bar nav a:hover#twitch {
+  color: #a970ff;
+}
+
+.footer-bar nav img {
+  height: 1rem;
+  visibility: hidden;
+  transition: ease-in .1s;
+}
+
+.footer-bar nav a:hover img {
+  visibility: visible;
+}
+
+.footer-bar nav a img:not(last-of-type) {
+  margin-left: .5rem;
+}

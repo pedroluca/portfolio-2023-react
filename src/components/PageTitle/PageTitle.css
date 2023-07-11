@@ -1,0 +1,14 @@
+@import '../../variables.css';
+
+.blue-title {
+  background: rgb(30,144,255);
+  background: linear-gradient(37deg, rgba(30,144,255,1) 0%, rgba(227,216,241,1) 92%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+.big-title {
+  font-size: 2.5rem;
+}

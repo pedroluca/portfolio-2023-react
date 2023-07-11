@@ -1,0 +1,25 @@
+@import '../../variables.css';
+
+.projects-page section, 
+.projects-page div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.projects-page div:not(:first-of-type) {
+  margin-top: 1rem;
+}
+
+.projects-page div p span {
+  text-decoration: line-through;
+}
+
+.projects-page a {
+  color: var(--font-color);
+  transition: ease-in .3s;
+}
+
+.projects-page a:hover {
+  color: var(--font2-color);
+}

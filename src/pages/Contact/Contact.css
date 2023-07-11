@@ -1,0 +1,9 @@
+@import '../../variables.css';
+
+.contact-page section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+}
