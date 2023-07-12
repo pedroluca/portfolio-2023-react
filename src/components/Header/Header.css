@@ -40,6 +40,12 @@
   color: transparent;
   font-size: 1.5rem;
   font-weight: bold;
+  transition: filter .3s ease;
+  filter: brightness(1);
+}
+
+.header-bar span a:hover {
+  filter: brightness(0.7);
 }
 
 .button-mobile {
