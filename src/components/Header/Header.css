@@ -12,16 +12,19 @@
 
 .header-bar a {
   color: var(--font-color);
-  transition: ease-in-out .2s;
+  transition: ease-in-out .3s;
+  padding: .5rem .8rem;
 }
 
 .header-bar nav a:hover {
   color: var(--font2-color);
+  background: var(--font3-color);
+  border-radius: 5px;
 }
 
 .header-bar nav {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   font-size: 1rem;
 }
 
@@ -41,6 +44,11 @@
 
 .button-mobile {
   display: none;
+}
+
+a.active {
+  color: var(--font2-color);
+  border-bottom: 1px solid var(--font2-color);
 }
 
 @media screen and (max-width: 768px) {

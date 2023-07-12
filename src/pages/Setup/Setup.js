@@ -1,9 +1,11 @@
 import './Setup.css'
 import PageTitle from '../../components/PageTitle/PageTitle'
+import DocumentTitle from '../../components/DocumentTitle/DocumentTitle'
 
 function Setup() {
   return (
     <div className="page page-column setup-page">
+      <DocumentTitle title="Setup" />
       <PageTitle name="Meu setup" />
       <section>
         <div className="setup-area">

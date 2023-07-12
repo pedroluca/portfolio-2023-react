@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { NavLink } from 'react-router-dom'
 import './Header.css'
 
 function Header() {
@@ -29,21 +30,21 @@ function Header() {
   return (
     <header className="header-bar">
       <span>
-        <a href="/" className="blue-title">Pedro Luca</a>
+        <NavLink exact to="/" className="blue-title">Pedro Luca</NavLink>
       </span>
       <div className={`menu-mobile ${isMenuActive ? 'active' : ''}`} id="menu-mobile">
         <button className="button-mobile" onClick={toggleMenu}>
           <span className="hamburguer"></span>
         </button>
         <nav>
-          <a href="/sobre">Sobre</a>
-          <a href="/projetos">Projetos</a>
-          <a href="/setup">Setup</a>
-          <a href="/contate-me">Contate-me</a>
+          <NavLink to="/sobre">Sobre</NavLink>
+          <NavLink to="/projetos">Projetos</NavLink>
+          <NavLink to="/setup">Setup</NavLink>
+          <NavLink to="/contate-me">Contate-me</NavLink>
         </nav>
       </div>
       <span className="fix-size">
-        <a href="/">Pedro Luca</a>
+        <NavLink exact to="/">Pedro Luca</NavLink>
       </span>
     </header>
   )
