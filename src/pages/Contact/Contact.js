@@ -1,10 +1,12 @@
 import './Contact.css'
 import PageTitle from '../../components/PageTitle/PageTitle'
 import ContactCard from '../../components/ContactCard/ContactCard'
+import DocumentTitle from '../../components/DocumentTitle/DocumentTitle'
 
 function Contact() {
   return (
-    <div className="page page-column contact-page">
+    <main className="page page-column contact-page">
+      <DocumentTitle title="Contatos" />
       <PageTitle name="Contate-me" />
       <section>
         <ContactCard src="instagram" url="https://www.instagram.com/pe.uuh" social="Instagram Pessoal" user="@pe.uuh" />
@@ -16,7 +18,7 @@ function Contact() {
         <ContactCard src="youtube" url="https://www.youtube.com/channel/UC7qDaMEUS4MjhQ7UVxQQVMQ" social="YouTube" user="Pedro Luca Prates" />
         <ContactCard src="twitch" url="https://www.twitch.com/PedroLucaOFC" social="Twitch" user="PedroLucaOFC" />
       </section>
-    </div>
+    </main>
   )
 }
 

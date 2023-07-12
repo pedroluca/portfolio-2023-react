@@ -1,6 +1,7 @@
 import './About.css'
 import Pedro from '../../images/profile.jpg'
 import PageTitle from '../../components/PageTitle/PageTitle'
+import DocumentTitle from '../../components/DocumentTitle/DocumentTitle'
 
 function About() {
 
@@ -10,7 +11,8 @@ function About() {
   const myAge = parseInt(differenceInMilliseconds / (1000 * 60 * 60 * 24 * 365.25))
 
   return (
-    <div className="page page-column">
+    <main className="page page-column">
+      <DocumentTitle title="Sobre" />
       <PageTitle name="Sobre mim" />
       <section id="about">
         <img src={Pedro} alt="Pedro is using a white shirt from her college's team, and wearing sunglasses"/>
@@ -51,7 +53,7 @@ function About() {
           <p>Dez. 2021 -- Ago. 2022</p>
         </div>
       </section>
-    </div>
+    </main>
   )
 }
 

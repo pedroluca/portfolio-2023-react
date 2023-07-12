@@ -1,9 +1,11 @@
 import './Projects.css'
 import PageTitle from '../../components/PageTitle/PageTitle'
+import DocumentTitle from '../../components/DocumentTitle/DocumentTitle'
 
 function Projects() {
   return (
-    <div className="page page-column projects-page">
+    <main className="page page-column projects-page">
+      <DocumentTitle title="Projetos" />
       <PageTitle name="Meus projetos" />
       <section>
         <div>
@@ -22,7 +24,7 @@ function Projects() {
           <p><span>Link do site</span> (fora do ar)</p>
         </div>
       </section>
-    </div>
+    </main>
   )
 }
 
