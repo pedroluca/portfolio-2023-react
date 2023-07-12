@@ -10,7 +10,7 @@
   font-weight: 400;
 }
 
-.header-bar a {
+.header-bar a:not(.not-active) {
   color: var(--font-color);
   transition: ease-in-out .3s;
   padding: .5rem .8rem;
