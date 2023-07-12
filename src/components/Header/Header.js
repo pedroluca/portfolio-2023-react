@@ -27,7 +27,7 @@ function Header() {
   }
 
   return (
-    <div className="header-bar">
+    <header className="header-bar">
       <span>
         <a href="/" className="blue-title">Pedro Luca</a>
       </span>
@@ -36,16 +36,16 @@ function Header() {
           <span className="hamburguer"></span>
         </button>
         <nav>
-          <a href="/about">Sobre</a>
-          <a href="/projects">Projetos</a>
+          <a href="/sobre">Sobre</a>
+          <a href="/projetos">Projetos</a>
           <a href="/setup">Setup</a>
-          <a href="/contact">Contate-me</a>
+          <a href="/contate-me">Contate-me</a>
         </nav>
       </div>
       <span className="fix-size">
         <a href="/">Pedro Luca</a>
       </span>
-    </div>
+    </header>
   )
 }
 
