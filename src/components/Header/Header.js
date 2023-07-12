@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import './Header.css'
 
 function Header() {
   const [isMenuActive, setIsMenuActive] = useState(false)
+  const location = useLocation()
+
+  useEffect(() => {
+    setIsMenuActive(false)
+  }, [location])
 
   useEffect(() => {
     const handleClickOutsideMenu = (event) => {
@@ -30,7 +35,7 @@ function Header() {
   return (
     <header className="header-bar">
       <span>
-        <NavLink exact to="/" className="blue-title">Pedro Luca</NavLink>
+        <NavLink exact to="/" className="blue-title not-active">Pedro Luca</NavLink>
       </span>
       <div className={`menu-mobile ${isMenuActive ? 'active' : ''}`} id="menu-mobile">
         <button className="button-mobile" onClick={toggleMenu}>

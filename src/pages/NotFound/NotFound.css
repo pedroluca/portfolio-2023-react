@@ -1,0 +1,18 @@
+@import '../../variables.css';
+
+.not-page {
+  align-items: center;
+  justify-content: center;
+}
+
+.not-page img {
+  height: 15rem;
+  width: 20rem;
+}
+
+@media screen and (max-width: 768px) {
+  .not-page img {
+    height: 10rem;
+    width: 14rem;
+  }
+}

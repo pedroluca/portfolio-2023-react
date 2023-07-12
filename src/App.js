@@ -7,25 +7,24 @@ import Projects from './pages/Projects/Projects'
 import Setup from './pages/Setup/Setup'
 import Contact from './pages/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import NotFound from './pages/NotFound/NotFound'
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header/>
+        <Header />
         <div className="App-content">
           <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/about" element={<About/>}/>
-            <Route path="/sobre" element={<About/>}/>
-            <Route path="/projects" element={<Projects/>}/>
-            <Route path="/projetos" element={<Projects/>}/>
-            <Route path="/setup" element={<Setup/>}/>
-            <Route path="/contact" element={<Contact/>}/>
-            <Route path="/contate-me" element={<Contact/>}/>
+            <Route path="/" element={<Home />} />
+            <Route path="/sobre" element={<About />} />
+            <Route path="/projetos" element={<Projects />} />
+            <Route path="/setup" element={<Setup />} />
+            <Route path="/contate-me" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </div>
   )
