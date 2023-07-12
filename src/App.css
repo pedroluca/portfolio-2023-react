@@ -1,6 +1,11 @@
 @import './variables.css';
 
 .App-content {
-  min-height: calc(100vh - 8rem);
   padding: 0 30rem;
+}
+
+@media screen and (max-width: 768px) {
+  .App-content {
+    padding: 0 1rem;
+  }
 }

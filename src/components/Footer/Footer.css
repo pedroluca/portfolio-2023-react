@@ -56,3 +56,27 @@
 .footer-bar nav a img:not(last-of-type) {
   margin-left: .5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .footer-bar {
+    height: 4rem;
+    color: var(--font2-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-bar nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-bar nav a span {
+    display: none;
+  }
+  
+  .footer-bar nav a img {
+    visibility: visible;
+    height: 1.3rem;
+  }
+}

@@ -40,7 +40,7 @@ a {
   /* color: var(--font-color); */
 }
 
-.page{
+.page {
   display: flex;
   min-height: calc(100vh - 8rem);
   font-weight: 400;
@@ -64,4 +64,10 @@ a {
 
 .big-title {
   font-size: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    min-height: calc(100vh - 8rem);
+  }
 }

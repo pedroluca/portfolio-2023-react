@@ -28,3 +28,15 @@
   color: var(--font-color);
   transition: ease-in-out .3s;
 }
+
+@media screen and (max-width: 768px) {
+  .contact-card {
+    height: 9rem;
+    width: 9rem;
+    font-size: 1rem;
+  }
+
+  .contact-card img {
+    height: 4rem;
+  }
+}

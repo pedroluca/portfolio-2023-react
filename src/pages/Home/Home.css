@@ -14,3 +14,9 @@
 #sub-title {
   color: var(--font2-color);
 }
+
+@media screen and (max-width: 768px) {
+  .home-page div {
+    margin: auto 0;
+  }
+}

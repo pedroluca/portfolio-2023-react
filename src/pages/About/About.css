@@ -39,3 +39,15 @@ blockquote {
   border-left: 2px solid gray;
   padding-left: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  section#about {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  section#about img {
+    width: 70%;
+  }
+}
