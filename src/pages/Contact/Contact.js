@@ -6,8 +6,8 @@ import DocumentTitle from '../../components/DocumentTitle/DocumentTitle'
 function Contact() {
   return (
     <main className="page page-column contact-page">
-      <DocumentTitle title="Contatos" />
-      <PageTitle name="Contate-me" />
+      <DocumentTitle title="Meus Links" />
+      <PageTitle name="Meus Links" />
       <section>
         <ContactCard src="instagram" url="https://www.instagram.com/pe.uuh" social="Instagram Pessoal" user="@pe.uuh" />
         <ContactCard src="instagram" url="https://www.instagram.com/pedroluca.dev" social="Instagram Profissional" user="@pedroluca.dev" />

@@ -5,7 +5,7 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Projects from './pages/Projects/Projects'
 import Setup from './pages/Setup/Setup'
-import Contact from './pages/Contact/Contact'
+import MyLinks from './pages/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import NotFound from './pages/NotFound/NotFound'
 
@@ -20,7 +20,7 @@ function App() {
             <Route path="/sobre" element={<About />} />
             <Route path="/projetos" element={<Projects />} />
             <Route path="/setup" element={<Setup />} />
-            <Route path="/contate-me" element={<Contact />} />
+            <Route path="/links" element={<MyLinks />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>

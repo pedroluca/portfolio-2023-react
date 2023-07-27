@@ -45,7 +45,7 @@ function Header() {
           <NavLink to="/sobre">Sobre</NavLink>
           <NavLink to="/projetos">Projetos</NavLink>
           <NavLink to="/setup">Setup</NavLink>
-          <NavLink to="/contate-me">Contate-me</NavLink>
+          <NavLink to="/links">Meus Links</NavLink>
         </nav>
       </div>
       <span className="fix-size">

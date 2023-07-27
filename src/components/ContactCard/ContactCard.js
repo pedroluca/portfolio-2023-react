@@ -26,6 +26,7 @@ function ContactCard(props) {
       <img src={imagePath} alt="Social media specified logo" />
       <h4>{props.social}</h4>
       <p>{props.user}</p>
+      <img src={imagePath} alt="Social media specified logo" id="hidden-img" />
     </div>
   )
 }
