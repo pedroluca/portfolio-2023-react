@@ -15,9 +15,10 @@ function Setup() {
             <li><a href="https://www.amazon.com.br/gp/product/B07XC936P8/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1">Headset: Razer Kraken Lite</a></li>
             <li><a href="https://www.amazon.com.br/gp/product/B07YNG2L67/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1">Headphone: Philips UH202 BT</a></li>
             <li><a href="https://www.amazon.com.br/gp/product/B01LYIY2HG/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1">Earphone: Bases Encok W04</a></li>
-            <li><a href="https://pt.aliexpress.com/item/1005004866196078.html?spm=a2g0o.order_list.order_list_main.5.6d4bcaa4daN1Nt&gatewayAdapt=glo2bra">Earphone 2: Lenovo Thinkplus LP40</a></li>
+            <li><a href="https://pt.aliexpress.com/item/1005004866196078.html?spm=a2g0o.order_list.order_list_main.5.6d4bcaa4daN1Nt&gatewayAdapt=glo2bra">Earphone: Lenovo Thinkplus LP40</a></li>
             <li><a href="https://www.amazon.com.br/gp/product/B0765YY6TM/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1">Mousepad: Fortrek G Speed Medium</a></li>
-            <li><a href="https://www.amazon.com.br/Mouse-Nanoreceptor-Inclusa-Logitech-Mouses/dp/B074L9L5KZ?th=1">Logitech M170 Wireless</a></li>
+            <li><a href="https://www.amazon.com.br/Mouse-Nanoreceptor-Inclusa-Logitech-Mouses/dp/B074L9L5KZ?th=1">Mouse: Logitech M170 Wireless</a></li>
+            <li><a href="https://pt.aliexpress.com/item/1005005847298347.html?spm=a2g0o.order_list.order_list_main.6.649ecaa4iWc5Ig&gatewayAdapt=glo2bra">Mouse: Baseus F01B Wireless</a></li>
           </ul>
         </div>
         <div className="setup-area">
