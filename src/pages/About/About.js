@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react'
+import axios from 'axios'
 import './About.css'
 import Pedro from '../../images/profile.jpg'
 import PageTitle from '../../components/PageTitle/PageTitle'
@@ -9,6 +11,21 @@ function About() {
   const myBirthday = new Date('2003-01-28')
   const differenceInMilliseconds = todayDate - myBirthday
   const myAge = parseInt(differenceInMilliseconds / (1000 * 60 * 60 * 24 * 365.25))
+
+  const username = `pedroluca`
+
+  const [data, setData] = useState()
+
+  useEffect(() => {
+    axios.get(`https://api.github.com/users/${username}`)
+      .then(response => {
+        setData({ user: response.data })
+      })
+      .catch(error => {
+        console.error('Erro na solicitação:', error)
+        setData({ error: 'Erro na solicitação' })
+      })
+  }, [username])
 
   return (
     <main className="page page-column">
@@ -25,7 +42,7 @@ function About() {
       </section>
       <section>
         <h2 className="blue-title">Bio</h2>
-        <blockquote>Meu é Pedro, sou Dev Front-End</blockquote>
+        <blockquote>{data && data.user.bio}</blockquote>
       </section>
       <section>
         <h2 className="blue-title">Carreira Acadêmica</h2>

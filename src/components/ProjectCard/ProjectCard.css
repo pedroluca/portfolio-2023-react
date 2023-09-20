@@ -1,0 +1,25 @@
+@import '../../variables.css';
+
+.clickable {
+  cursor: pointer;
+}
+
+.not-clickable {
+  cursor: not-allowed;
+}
+
+.project-card {
+  width: 100%;
+  background: #171717;
+  border-radius: 10px;
+  padding: 8px;
+  transition: .3s ease-in-out;
+}
+
+.project-card:hover {
+  background: #2F2F2F;
+}
+
+.project-card.not-clickable:hover {
+  background: #171717;
+}

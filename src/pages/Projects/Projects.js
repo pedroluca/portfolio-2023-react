@@ -1,4 +1,5 @@
 import './Projects.css'
+import ProjectCard from '../../components/ProjectCard/ProjectCard'
 import PageTitle from '../../components/PageTitle/PageTitle'
 import DocumentTitle from '../../components/DocumentTitle/DocumentTitle'
 
@@ -7,22 +8,12 @@ function Projects() {
     <main className="page page-column projects-page">
       <DocumentTitle title="Projetos" />
       <PageTitle name="Meus projetos" />
+      <p>Abaixo estão alguns projetos que desenvolvi:</p>
       <section>
-        <div>
-          <h4>Blog Criança Alerta</h4>
-          <p>Blog educativo com o intuito de ensinar para as crianças e adolescentes sobre seus direitos, garantidos por lei, para que a taxa de violência e abuso de crianças diminua.</p>
-          <a href="https://www.blogcriancaalerta.epizy.com/" target="blank">Link do blog</a>
-        </div>
-        <div>
-          <h4>Catálogo de Serviços</h4>
-          <p>Plataforma online para divulgação de empresas e pequenos comércios na região.</p>
-          <p><span>Link da plataforma</span> (fora do ar)</p>
-        </div>
-        <div>
-          <h4>Small Phones</h4>
-          <p>Sistema de solitação de atendimentos técnicos. O cliente se cadastra e solicita um técnico.</p>
-          <p><span>Link do site</span> (fora do ar)</p>
-        </div>
+        <ProjectCard title="Blog Criança Alerta" description="Blog educativo com o intuito de ensinar para as crianças e adolescentes sobre seus direitos, garantidos por lei, para que a taxa de violência e abusos de crianças diminua." url="https://www.blogcriancaalerta.epizy.com/" />
+        <ProjectCard title="Catálogo de Serviços" description="Plataforma online para divulgação de empresas e pequenos comércios na região." />
+        <ProjectCard title="Repage do site do IF Baiano campus Guanambi" description="Atividade acadêmica cujo intuito era desenvolver ou repaginar um site" url="https://repage-if-baiano.vercel.app/" />
+        <ProjectCard title="Small Phones" description="Sistema de solicitação de atendimentos técnicos. O cliente e cadastra e entra em contato com um técnico." />
       </section>
     </main>
   )

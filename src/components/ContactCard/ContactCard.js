@@ -8,6 +8,10 @@ import Twitch from '../../images/twitch.png'
 import Outlook from '../../images/outlook.png'
 
 function ContactCard(props) {
+  const handleCardClick = () => {
+    window.open(props.url, 'blank')
+  }
+  
   let imagePath
   if (props.src === 'instagram') imagePath = Instagram
   else if (props.src === 'github') imagePath = Github
@@ -16,13 +20,9 @@ function ContactCard(props) {
   else if (props.src === 'youtube') imagePath = Youtube
   else if (props.src === 'twitch') imagePath = Twitch
   else if (props.src === 'outlook') imagePath = Outlook
-
-  const handleClick = () => {
-    window.open(props.url, 'blank')
-  }
   
   return (
-    <div className="contact-card" onClick={handleClick}>
+    <div className="contact-card" onClick={handleCardClick}>
       <img src={imagePath} alt="Social media specified logo" />
       <h4>{props.social}</h4>
       <p>{props.user}</p>
