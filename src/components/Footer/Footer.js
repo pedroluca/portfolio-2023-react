@@ -10,7 +10,7 @@ function Footer() {
   return (
     <div className="footer-bar">
       <nav>
-        <a href="https://www.instagram.com/pedroluca.dev" target="blank" id="instagram"><span>instagram</span><img src={Instagram} alt="Instagram logo"/></a>
+        <a href="https://www.instagram.com/pe.uuh" target="blank" id="instagram"><span>instagram</span><img src={Instagram} alt="Instagram logo"/></a>
         <a href="https://www.github.com/pedroluca" target="blank" id="github"><span>github</span><img src={Github} alt="Github logo"/></a>
         <a href="https://www.linkedin.com/in/pedro-luca-prates" target="blank" id="linkedin"><span>linkedin</span><img src={Linkedin} alt="Linkedin logo"/></a>
         <a href="https://www.twitter.com/pedrolucaofc" target="blank" id="twitter"><span>twitter</span><img src={Xtwitter} alt="X logo"/></a>
