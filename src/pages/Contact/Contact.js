@@ -27,7 +27,7 @@ function Contact() {
       <DocumentTitle title="Meus Links" />
       <PageTitle name="Meus Links" />
       <section>
-        <ContactCard src="instagram" url="https://www.instagram.com/pe.uuh" social="Instagram Pessoal" user="@pe.uuh" />
+        <ContactCard src="instagram" url="https://www.instagram.com/pe.uuh" social="Instagram" user="@pe.uuh" />
         <ContactCard src="xtwitter" url="https://www.twitter.com/pedrolucaofc" social="Twitter" user="@pedrolucaofc" />
         <ContactCard src="github" url={githubLink} social="Github" user={data && data.user.login} />
         <ContactCard src="linkedin" url="https://www.linkedin.com/in/pedro-luca-prates" social="Linkedin" user="Pedro Luca Prates" />
