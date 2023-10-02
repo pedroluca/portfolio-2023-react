@@ -43,8 +43,8 @@ a {
 .page {
   display: flex;
   min-height: calc(100vh - 8rem);
-  font-weight: 400;
-  font-size: 1.2rem;
+  font-weight: 400;  
+  font-size: 1.125rem;
 }
 
 .page-column {
