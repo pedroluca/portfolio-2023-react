@@ -18,7 +18,7 @@ section#about div {
 
 section#about div p {
   text-align: justify;
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   line-height: 1.5rem;
 }
 
@@ -34,7 +34,7 @@ section h4 {
 
 blockquote {
   line-height: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.125rem;
   color: var(--font2-color);
   border-left: 2px solid gray;
   padding-left: 2rem;
