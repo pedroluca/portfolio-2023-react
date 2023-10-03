@@ -1,6 +1,7 @@
 import './Setup.css'
 import PageTitle from '../../components/PageTitle/PageTitle'
 import DocumentTitle from '../../components/DocumentTitle/DocumentTitle'
+import SetupItems from '../../components/SetupItems/SetupItems'
 
 function Setup() {
   return (
@@ -10,41 +11,41 @@ function Setup() {
       <section>
         <div className="setup-area">
           <h3>Workstation</h3>
-          <ul>
-            <li><a href="https://www.lenovo.com/br/pt/laptops/ideapad/ideapad-gaming-laptops/IdeaPad-L340-15IRH-Gaming/p/88IPL301161">Laptop: Lenovo Ideapad L340 Gaming</a></li>
-            <li><a href="https://www.amazon.com.br/gp/product/B07XC936P8/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1">Headset: Razer Kraken Lite</a></li>
-            <li><a href="https://www.amazon.com.br/gp/product/B07YNG2L67/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1">Headphone: Philips UH202 BT</a></li>
-            <li><a href="https://www.amazon.com.br/gp/product/B01LYIY2HG/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1">Earphone: Bases Encok W04</a></li>
-            <li><a href="https://pt.aliexpress.com/item/1005004866196078.html?spm=a2g0o.order_list.order_list_main.5.6d4bcaa4daN1Nt&gatewayAdapt=glo2bra">Earphone: Lenovo Thinkplus LP40</a></li>
-            <li><a href="https://www.amazon.com.br/gp/product/B0765YY6TM/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1">Mousepad: Fortrek G Speed Medium</a></li>
-            <li><a href="https://www.amazon.com.br/Mouse-Nanoreceptor-Inclusa-Logitech-Mouses/dp/B074L9L5KZ?th=1">Mouse: Logitech M170 Wireless</a></li>
-            <li><a href="https://pt.aliexpress.com/item/1005005847298347.html?spm=a2g0o.order_list.order_list_main.6.649ecaa4iWc5Ig&gatewayAdapt=glo2bra">Mouse: Baseus F01B Wireless</a></li>
-          </ul>
+          <div className="setup-holder">
+            <SetupItems src="laptop" social="Laptop" user="Lenovo L340 Gaming" url="https://www.lenovo.com/br/pt/laptops/ideapad/ideapad-gaming-laptops/IdeaPad-L340-15IRH-Gaming/p/88IPL301161" />
+            <SetupItems src="headset" social="Headset" user="Razer Kraken Lite" url="https://www.amazon.com.br/gp/product/B07XC936P8/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1" />
+            <SetupItems src="headphone" social="Headphone" user="Philips UH202 BT" url="https://www.amazon.com.br/gp/product/B07YNG2L67/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1" />
+            <SetupItems src="earphone1" social="Earpods" user="Baseus Encok W04" url="https://www.amazon.com.br/gp/product/B01LYIY2HG/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1" />
+            <SetupItems src="earphone2" social="Earpods" user="Lenovo Thinkplus LP40" url="https://pt.aliexpress.com/item/1005004866196078.html?spm=a2g0o.order_list.order_list_main.5.6d4bcaa4daN1Nt&gatewayAdapt=glo2bra" />
+            <SetupItems src="mouse1" social="Mouse" user="Logitech M170 Wireless" url="https://www.amazon.com.br/Mouse-Nanoreceptor-Inclusa-Logitech-Mouses/dp/B074L9L5KZ?th=1" />
+            <SetupItems src="mouse2" social="Mouse" user="Baseus F01B Wireless" url="https://pt.aliexpress.com/item/1005005847298347.html?spm=a2g0o.order_list.order_list_main.6.649ecaa4iWc5Ig&gatewayAdapt=glo2bra" />
+            <SetupItems src="mousepad" social="Mousepad" user="Fortrek G Speed Medium" url="https://www.amazon.com.br/gp/product/B0765YY6TM/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&th=1" />
+          </div>
         </div>
         <div className="setup-area">
           <h3>Coding</h3>
-          <ul>
-            <li><a href="https://code.visualstudio.com/">IDE: VS Code</a></li>
-            <li><a href="https://marketplace.visualstudio.com/items?itemName=rocketseat.theme-omni">Theme: Omni</a></li>
-            <li><a href="https://www.jetbrains.com/pt-br/lp/mono/">Font: JetBrains Mono</a></li>
-          </ul>
+          <div className="setup-holder">
+            <SetupItems src="vscode" social="IDE" user="VS Code" url="https://code.visualstudio.com/" />
+            <SetupItems src="omni" social="Tema" user="Omni" url="https://marketplace.visualstudio.com/items?itemName=rocketseat.theme-omni" />
+            <SetupItems src="jetbrains" social="Fonte" user="JetBrains Mono" url="https://www.jetbrains.com/pt-br/lp/mono/" />
+          </div>
         </div>
         <div className="setup-area">
           <h3>Books</h3>
-          <ul>
-            <li><a href="https://www.amazon.com.br/gp/product/8576082675/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1">Código Limpo: Habilidades Práticas do Agile Software</a></li>
-            <li><a href="https://www.amazon.com.br/gp/product/8550804606/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1">Arquitetura Limpa: O Guia do Artesão para Estrutura e Design de Software</a></li>
-            <li><a href="/setup">PHP4 e MySQL</a></li>
-            <li><a href="/setup">Introdução a Estrutura de Dados</a></li>
-            <li><a href="/setup">Introdução ao Desenvolvimento de Aplicativos para o Android</a></li>
-          </ul>
+          <div className="setup-holder tooltip-container">
+            <SetupItems src="codigo" social="Código Limpo" url="https://www.amazon.com.br/gp/product/8576082675/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1" />
+            <SetupItems src="arquitetura" social="Arquitetura Limpa" url="https://www.amazon.com.br/gp/product/8550804606/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1" />
+            <SetupItems src="php4" social="PHP4 e MySQL" url="/setup" />
+            <SetupItems src="estrutura" social="Estrutura de Dados" url="/setup" />
+            <SetupItems src="android" social="Aplicativos para o Android" url="/setup" />
+          </div>
         </div>
         <div className="setup-area">
           <h3>Newsletter</h3>
-          <ul>
-            <li><a href="https://filipedeschamps.com.br/newsletter">Filipe Deschamps</a></li>
-            <li><a href="https://thenewscc.com.br/indicacao/?grsf=vlch08">The News</a></li>
-          </ul>
+          <div className="setup-holder">
+            <SetupItems src="deschamps" social="Filipe Deschamps" url="https://filipedeschamps.com.br/newsletter" />
+            <SetupItems src="thenews" social="The News" url="https://thenewscc.com.br/indicacao/?grsf=vlch08" />
+          </div>
         </div>
       </section>
     </div>

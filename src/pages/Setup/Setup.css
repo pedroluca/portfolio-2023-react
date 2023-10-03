@@ -12,12 +12,6 @@
   gap: 1rem;
 }
 
-.setup-area ul {
-  margin-left: 3rem;
-  list-style-type: square;
-  line-height: 2rem;
-}
-
 .setup-area a {
   color: var(--font-color);
   transition: ease-in-out .3s;
@@ -25,4 +19,23 @@
 
 .setup-area a:hover {
   color: var(--font2-color);
+}
+
+.setup-holder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .setup-holder {
+    width: 100%;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .contact-card p {
+    display: flex;
+  }
 }
