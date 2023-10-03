@@ -31,7 +31,7 @@ function Contact() {
         <ContactCard src="xtwitter" url="https://www.twitter.com/pedrolucaofc" social="Twitter" user="@pedrolucaofc" />
         <ContactCard src="github" url={githubLink} social="Github" user={data && data.user.login} />
         <ContactCard src="linkedin" url="https://www.linkedin.com/in/pedro-luca-prates" social="Linkedin" user="Pedro Luca Prates" />
-        <ContactCard src="outlook" url="mailto: pedrolucaofc@outlook.com" social="E-mail" user="pedrolucaofc" />
+        <ContactCard src="outlook" url="mailto: pedrolucaofc@outlook.com" social="Outlook" user="pedrolucaofc" />
         <ContactCard src="youtube" url="https://www.youtube.com/channel/UC7qDaMEUS4MjhQ7UVxQQVMQ" social="YouTube" user="Pedro Luca Prates" />
         <ContactCard src="twitch" url="https://www.twitch.com/PedroLucaOFC" social="Twitch" user="PedroLucaOFC" />
       </section>
