@@ -23,6 +23,7 @@
 
 .contact-card img {
   height: 5rem;
+  width: 8rem;
 }
 
 .contact-card h4 {
@@ -34,28 +35,16 @@
   display: none;
 }
 
+.img-contain {
+  object-fit: contain;
+}
+
 @media screen and (max-width: 768px) {
   .contact-card {
-    height: 4rem;
-    width: 95%;
     font-size: 1rem;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 1.5rem;
-    border-radius: 50px;
-  }
-
-  .contact-card p {
-    display: none;
-  }
-
-  .contact-card img {
-    height: 2.5rem;
-    width: 2.5rem;
-  }
-
-  #hidden-img {
-    display: block;
-    visibility: hidden;
+    flex-direction: column;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
   }
 }
