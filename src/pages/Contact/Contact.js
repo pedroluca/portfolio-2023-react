@@ -28,7 +28,7 @@ function Contact() {
       <PageTitle name="Meus Links" />
       <section>
         <LinkCard src="instagram" url="https://www.instagram.com/pe.uuh" social="Instagram" user="@pe.uuh" />
-        <LinkCard src="xtwitter" url="https://www.twitter.com/pedrolucaofc" social="Twitter" user="@pedrolucaofc" />
+        <LinkCard src="xtwitter" url="https://www.twitter.com/pedrolucaofc" social="X / Twitter" user="@pedrolucaofc" />
         <LinkCard src="github" url={githubLink} social="Github" user={data && data.user.login} />
         <LinkCard src="linkedin" url="https://www.linkedin.com/in/pedro-luca-prates" social="Linkedin" user="Pedro Luca Prates" />
         <LinkCard src="outlook" url="mailto: pedrolucaofc@outlook.com" social="Outlook" user="pedrolucaofc" />
