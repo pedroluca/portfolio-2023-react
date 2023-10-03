@@ -1,6 +1,6 @@
 @import '../../variables.css';
 
-.contact-card {
+.setup-card {
   width: 11rem;
   height: 11rem;
   border-radius: 10px;
@@ -16,23 +16,18 @@
   gap: .5rem;
 }
 
-.contact-card:hover,
-.contact-card:hover h4  {
+.setup-card:hover,
+.setup-card:hover h4  {
   color: var(--font2-color);
 }
 
-.contact-card img {
+.setup-card img {
   height: 5rem;
-  width: 8rem;
 }
 
-.contact-card h4 {
+.setup-card h4 {
   color: var(--font-color);
   transition: ease-in-out .3s;
-}
-
-#hidden-img {
-  display: none;
 }
 
 .img-contain {
@@ -40,11 +35,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  .contact-card {
+  .setup-card {
     font-size: 1rem;
     flex-direction: column;
     justify-content: center;
     width: 10rem;
     height: 10rem;
+    padding-top: 1rem;
   }
 }

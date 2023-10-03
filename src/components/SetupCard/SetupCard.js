@@ -43,11 +43,10 @@ function SetupCard(props) {
   else if (props.src === 'thenews') imagePath = TheNews
 
   return (
-    <div className="contact-card" onClick={handleCardClick}>
+    <div className="setup-card" onClick={handleCardClick}>
       <img className="img-contain" src={imagePath} alt="Setup item image for recognition" />
       <h4>{props.social}</h4>
       <p>{props.user}</p>
-      <img src={imagePath} alt="Hidden image just for design" id="hidden-img" />
     </div>
   )
 }
