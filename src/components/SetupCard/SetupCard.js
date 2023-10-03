@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import './SetupItems.css'
+import './SetupCard.css'
 import JetBrains from '../../images/jetbrains.png'
 import Omni from '../../images/omni.png'
 import VSCode from '../../images/vscode.png'
@@ -19,7 +19,7 @@ import EstruturaDados from '../../images/estrutura_dados.jpg'
 import Deschamps from '../../images/deschamps.png'
 import TheNews from '../../images/the_news.png'
 
-function ContactCard(props) {
+function SetupCard(props) {
   const handleCardClick = () => window.open(props.url, 'blank')
   
   let imagePath
@@ -52,4 +52,4 @@ function ContactCard(props) {
   )
 }
 
-export default ContactCard
+export default SetupCard
