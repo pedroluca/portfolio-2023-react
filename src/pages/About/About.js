@@ -35,9 +35,9 @@ function About() {
         <img src={Pedro} alt="White guy with brown hair, smiling and looking to the camera, wearing a white team t-shirt and black sunglasses, behind him there's a beach and some people sitting and watching the sunset, this beach is in Ponta do Mutá, Bahia, Brazil."/>
         <div>
           <p>Meu nome é Pedro Luca Prates, tenho {myAge} anos e sou Técnico em Informática e Desenvolvedor Front-End.</p>
-          <p>Em 2021, conclui o curso técnico em Informática para Internet no IF Baiano - campus Guanambi, onde atualmente estou cursando Análise e Desenvolvimento de Sistemas.</p>
+          <p>Em 2021, conclui a minha formação como Técnico em Informática para Internet no IF Baiano - <em>campus</em> Guanambi, mesma instituição onde atualmente estou cursando Análise e Desenvolvimento de Sistemas.</p>
           <p>Sou apaixonado pelo mundo da programação desde que iniciei meus estudos na área, em 2018, e tenho muita afinidade com Front-End, apesar de também gostar e compreender facilmente as complexidades do Back-End (Já desenvolvi alguns projetos como Dev Full-Stack).</p>
-          <p>Tenho experiência com as tecnologias: HTML, CSS, PHP, SQL, C e um conhecimento básico de Javascript.</p>
+          <p>Tenho experiência com as tecnologias: HTML, CSS, JavaScript, PHP, SQL, C e atualmente estou estudando React.JS e Java (respectivamente: para projetos pessoais e/ou profissionais e disciplina na faculdade).</p>
         </div>
       </section>
       <section>
@@ -47,7 +47,7 @@ function About() {
       <section>
         <h2 className="blue-title">Carreira Acadêmica</h2>
         <div>
-          <h4>Técnico em Informática para Internet</h4>
+          <h4>Ensino Médio integrado ao curso Técnico em Informática para Internet</h4>
           <p>IF Baiano • Guanambi, BA</p>
           <p>Jan. 2018 -- Ago. 2021</p>
         </div>
