@@ -32,11 +32,11 @@ function About() {
       <DocumentTitle title="Sobre" />
       <PageTitle name="Sobre mim" />
       <section id="about">
-        <img src={Pedro} alt="Pedro is using a white shirt from her college's team, and wearing sunglasses"/>
+        <img src={Pedro} alt="White guy with brown hair, smiling and looking to the camera, wearing a white team t-shirt and black sunglasses, behind him there's a beach and some people sitting and watching the sunset, this beach is in Ponta do Mutá, Bahia, Brazil."/>
         <div>
-          <p>Meu nome é Pedro Luca, tenho {myAge} anos e sou Técnico em Informática.</p>
+          <p>Meu nome é Pedro Luca Prates, tenho {myAge} anos e sou Técnico em Informática e Desenvolvedor Front-End.</p>
           <p>Em 2021, conclui o curso técnico em Informática para Internet no IF Baiano - campus Guanambi, onde atualmente estou cursando Análise e Desenvolvimento de Sistemas.</p>
-          <p>Sou apaixonado pelo mundo da programação desde que iniciei os estudos sobre isso em 2018, e me identifico demais com a área do Front-End.</p>
+          <p>Sou apaixonado pelo mundo da programação desde que iniciei meus estudos na área, em 2018, e tenho muita afinidade com Front-End, apesar de também gostar e compreender facilmente as complexidades do Back-End (Já desenvolvi alguns projetos como Dev Full-Stack).</p>
           <p>Tenho experiência com as tecnologias: HTML, CSS, PHP, SQL, C e um conhecimento básico de Javascript.</p>
         </div>
       </section>
