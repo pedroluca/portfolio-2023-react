@@ -18,6 +18,7 @@ import DevAndroid from '../../images/dev_android.jpg'
 import EstruturaDados from '../../images/estrutura_dados.jpg'
 import Deschamps from '../../images/deschamps.png'
 import TheNews from '../../images/the_news.png'
+import Codecon from '../../images/codecon.png'
 
 function SetupCard(props) {
   const handleCardClick = () => window.open(props.url, 'blank')
@@ -41,6 +42,7 @@ function SetupCard(props) {
   else if (props.src === 'android') imagePath = DevAndroid
   else if (props.src === 'deschamps') imagePath = Deschamps
   else if (props.src === 'thenews') imagePath = TheNews
+  else if (props.src === 'codecon') imagePath = Codecon
 
   return (
     <div className="setup-card" onClick={handleCardClick}>

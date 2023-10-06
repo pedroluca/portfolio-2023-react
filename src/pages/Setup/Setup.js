@@ -45,6 +45,7 @@ function Setup() {
           <div className="setup-holder">
             <SetupCard src="deschamps" social="Filipe Deschamps" url="https://filipedeschamps.com.br/newsletter" />
             <SetupCard src="thenews" social="The News" url="https://thenewscc.com.br/indicacao/?grsf=vlch08" />
+            <SetupCard src="codecon" social="Codecon" url="https://codecon.substack.com" />
           </div>
         </div>
       </section>
