@@ -3,7 +3,7 @@
 :root {
   --bg-color: #040d0f;
   --bg2-color: #182022;
-  --font-color: #8F9BA8;
+  --font-color: #888888;
   --font2-color: #f1f1f1;
   --font3-color: rgba(143, 155, 168, 0.3);
   --scrollbar-color: var(--font-color);

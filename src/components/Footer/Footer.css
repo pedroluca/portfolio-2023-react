@@ -13,48 +13,20 @@
 }
 
 .footer-bar nav a {
-  color: var(--font-color);
   transition: ease-in .2s;
   display: flex;
   align-items: center;
-}
-
-.footer-bar nav a:hover#instagram {
-  color: #fe016b;
-}
-
-.footer-bar nav a:hover#github {
-  color: #b9bbbd;
-}
-
-.footer-bar nav a:hover#linkedin {
-  color: #0a66c2;
-}
-
-.footer-bar nav a:hover#twitter {
-  color: #fff;
-}
-
-.footer-bar nav a:hover#youtube {
-  color: #f00;
-}
-
-.footer-bar nav a:hover#twitch {
-  color: #a970ff;
+  padding: .5rem;
+  border-radius: 5px;
 }
 
 .footer-bar nav img {
-  height: 1rem;
-  visibility: hidden;
+  height: 1.3rem;
   transition: ease-in .1s;
 }
 
-.footer-bar nav a:hover img {
-  visibility: visible;
-}
-
-.footer-bar nav a img:not(last-of-type) {
-  margin-left: .5rem;
+.footer-bar nav a:hover {
+  background: var(--font3-color);
 }
 
 @media screen and (max-width: 768px) {
