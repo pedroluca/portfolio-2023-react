@@ -27,6 +27,7 @@ function Setup() {
           <div className="setup-holder">
             <SetupCard src="vscode" social="IDE" user="VS Code" url="https://code.visualstudio.com/" />
             <SetupCard src="omni" social="Tema" user="Omni" url="https://marketplace.visualstudio.com/items?itemName=rocketseat.theme-omni" />
+            <SetupCard src="omni-dracula" social="Tema" user="Omni Dracula" url="https://marketplace.visualstudio.com/items?itemName=ThiagoLcioBittencourt.omni-dracula-theme" />
             <SetupCard src="jetbrains" social="Fonte" user="JetBrains Mono" url="https://www.jetbrains.com/pt-br/lp/mono/" />
           </div>
         </div>
@@ -46,6 +47,7 @@ function Setup() {
             <SetupCard src="deschamps" social="Filipe Deschamps" url="https://filipedeschamps.com.br/newsletter" />
             <SetupCard src="thenews" social="The News" url="https://thenewscc.com.br/indicacao/?grsf=vlch08" />
             <SetupCard src="codecon" social="Codecon" url="https://codecon.substack.com" />
+            <SetupCard src="biro" social="Birobirobiro" url="https://birobirobiro.substack.com" />
           </div>
         </div>
       </section>

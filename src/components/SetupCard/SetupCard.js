@@ -2,6 +2,7 @@
 import './SetupCard.css'
 import JetBrains from '../../images/jetbrains.png'
 import Omni from '../../images/omni.png'
+import OmniDracula from '../../images/omni-dracula.png'
 import VSCode from '../../images/vscode.png'
 import Laptop from '../../images/laptop.png'
 import Headset from '../../images/headset.png'
@@ -19,6 +20,7 @@ import EstruturaDados from '../../images/estrutura_dados.jpg'
 import Deschamps from '../../images/deschamps.png'
 import TheNews from '../../images/the_news.png'
 import Codecon from '../../images/codecon.png'
+import Biro from '../../images/birobirobiro.png'
 
 function SetupCard(props) {
   const handleCardClick = () => window.open(props.url, 'blank')
@@ -33,6 +35,7 @@ function SetupCard(props) {
   else if (props.src === 'headset') imagePath = Headset
   else if (props.src === 'mousepad') imagePath = Mousepad
   else if (props.src === 'omni') imagePath = Omni
+  else if (props.src === 'omni-dracula') imagePath = OmniDracula
   else if (props.src === 'jetbrains') imagePath = JetBrains
   else if (props.src === 'vscode') imagePath = VSCode
   else if (props.src === 'codigo') imagePath = CodigoLimpo
@@ -43,6 +46,7 @@ function SetupCard(props) {
   else if (props.src === 'deschamps') imagePath = Deschamps
   else if (props.src === 'thenews') imagePath = TheNews
   else if (props.src === 'codecon') imagePath = Codecon
+  else if (props.src === 'biro') imagePath = Biro
 
   return (
     <div className="setup-card" onClick={handleCardClick}>
