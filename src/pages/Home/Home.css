@@ -1,11 +1,7 @@
 @import '../../variables.css';
 
-/* .home-page {
-
-} */
-
 .home-page div {
-  margin: 30vh 0 40vh;
+  margin: 30vh 0 auto;
   display: flex;
   flex-direction: column;
   gap: .5rem;
@@ -13,6 +9,27 @@
 
 #sub-title {
   color: var(--font2-color);
+}
+
+#contact-button {
+  background: var(--blue-color);
+  color: var(--font2-color);
+  padding: .5rem;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  border: none;
+  transition: ease-in-out .3s;
+  cursor: pointer;
+  margin-top: 15px;
+  font-family: 'Tomorrow', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+#contact-button:hover {
+  background: #0051a1;
 }
 
 @media screen and (max-width: 768px) {
