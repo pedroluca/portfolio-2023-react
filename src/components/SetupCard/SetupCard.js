@@ -11,6 +11,7 @@ import Earpods1 from '../../images/earphone1.png'
 import Earpods2 from '../../images/earphone2.png'
 import Mouse1 from '../../images/mouse1.png'
 import Mouse2 from '../../images/mouse2.png'
+import Mouse3 from '../../images/mouse3.png'
 import Mousepad from '../../images/mousepad.png'
 import CodigoLimpo from '../../images/codigo.png'
 import Arquitetura from '../../images/arquitetura.png'
@@ -29,6 +30,7 @@ function SetupCard(props) {
   if (props.src === 'laptop') imagePath = Laptop
   else if (props.src === 'mouse1') imagePath = Mouse1
   else if (props.src === 'mouse2') imagePath = Mouse2
+  else if (props.src === 'mouse3') imagePath = Mouse3
   else if (props.src === 'earphone1') imagePath = Earpods1
   else if (props.src === 'earphone2') imagePath = Earpods2
   else if (props.src === 'headphone') imagePath = Headphone

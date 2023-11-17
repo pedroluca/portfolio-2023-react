@@ -21,6 +21,10 @@
   color: var(--font2-color);
 }
 
+.setup-card:hover {
+  background: var(--font3-color);
+}
+
 .setup-card img {
   height: 5rem;
 }

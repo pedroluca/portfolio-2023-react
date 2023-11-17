@@ -19,6 +19,7 @@ function Setup() {
             <SetupCard src="earphone1" social="Earpods 2" user="Baseus Encok W04" url="https://www.amazon.com.br/gp/product/B01LYIY2HG/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1" />
             <SetupCard src="mouse2" social="Mouse 1" user="Baseus F01B Wireless" url="https://pt.aliexpress.com/item/1005005847298347.html?spm=a2g0o.order_list.order_list_main.6.649ecaa4iWc5Ig&gatewayAdapt=glo2bra" />
             <SetupCard src="mouse1" social="Mouse 2" user="Logitech M170 Wireless" url="https://www.amazon.com.br/Mouse-Nanoreceptor-Inclusa-Logitech-Mouses/dp/B074L9L5KZ?th=1" />
+            <SetupCard src="mouse3" social="Mouse 3" user="Dell MS3320p" url="https://pt.aliexpress.com/i/1005002494212473.html" />
             <SetupCard src="mousepad" social="Mousepad" user="Fortrek G Speed Medium" url="https://www.amazon.com.br/gp/product/B0765YY6TM/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&th=1" />
           </div>
         </div>
