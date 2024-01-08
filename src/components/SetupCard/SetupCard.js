@@ -29,7 +29,6 @@ function SetupCard(props) {
   if (props.src === 'laptop') imagePath = Laptop
   else if (props.src === 'mouse1') imagePath = Mouse1
   else if (props.src === 'mouse2') imagePath = Mouse2
-  else if (props.src === 'mouse3') imagePath = Mouse3
   else if (props.src === 'earphone1') imagePath = Earpods1
   else if (props.src === 'earphone2') imagePath = Earpods2
   else if (props.src === 'headphone') imagePath = Headphone
