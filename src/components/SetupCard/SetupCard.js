@@ -3,6 +3,7 @@ import './SetupCard.css'
 import JetBrains from '../../images/jetbrains.png'
 import Omni from '../../images/omni.png'
 import OmniDracula from '../../images/omni-dracula.png'
+import OmniOwl from '../../images/omni-owl.png'
 import VSCode from '../../images/vscode.png'
 import Laptop from '../../images/laptop.png'
 import Headset from '../../images/headset.png'
@@ -36,6 +37,7 @@ function SetupCard(props) {
   else if (props.src === 'mousepad') imagePath = Mousepad
   else if (props.src === 'omni') imagePath = Omni
   else if (props.src === 'omni-dracula') imagePath = OmniDracula
+  else if (props.src === 'omni-owl') imagePath = OmniOwl
   else if (props.src === 'jetbrains') imagePath = JetBrains
   else if (props.src === 'vscode') imagePath = VSCode
   else if (props.src === 'codigo') imagePath = CodigoLimpo
