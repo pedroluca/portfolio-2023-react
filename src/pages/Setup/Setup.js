@@ -13,7 +13,7 @@ function Setup() {
           <h3>Workstation</h3>
           <div className="setup-holder">
             <SetupCard src="laptop" social="Laptop" user="Lenovo L340 Gaming" url="https://www.lenovo.com/br/pt/laptops/ideapad/ideapad-gaming-laptops/IdeaPad-L340-15IRH-Gaming/p/88IPL301161" />
-            <SetupCard src="suporte" social="Suporte de alumínio p/ Laptop" url="https://pt.aliexpress.com/item/1005005217800671.html?spm=a2g0o.order_list.order_list_main.4.76eecaa4wvymvg&gatewayAdapt=glo2bra" />
+            <SetupCard src="suporte" social="Suporte p/ Laptop" url="https://pt.aliexpress.com/item/1005005217800671.html?spm=a2g0o.order_list.order_list_main.4.76eecaa4wvymvg&gatewayAdapt=glo2bra" />
             <SetupCard src="headset" social="Headset" user="Razer Kraken Lite" url="https://www.amazon.com.br/gp/product/B07XC936P8/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1" />
             <SetupCard src="headphone" social="Headphone" user="Philips UH202 BT" url="https://www.amazon.com.br/gp/product/B07YNG2L67/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1" />
             <SetupCard src="earphone1" social="Earpods" user="Lenovo Thinkplus XT88" url="https://pt.aliexpress.com/item/1005005719551043.html?spm=a2g0o.order_list.order_list_main.10.79f0caa43SldAI&gatewayAdapt=glo2bra" />
@@ -47,7 +47,7 @@ function Setup() {
           <h3>Newsletter</h3>
           <div className="setup-holder">
             <SetupCard src="deschamps" social="Filipe Deschamps" url="https://filipedeschamps.com.br/newsletter" />
-            <SetupCard src="thenews" social="The News" url="https://thenewscc.com.br/indicacao/?grsf=vlch08" />
+            <SetupCard src="thenews" social="The News" url="https://thenewscc.beehiiv.com/subscribe?ref=huLORfHEBz" />
             <SetupCard src="codecon" social="Codecon" url="https://codecon.substack.com" />
             <SetupCard src="biro" social="Birobirobiro" url="https://birobirobiro.substack.com" />
           </div>
