@@ -8,6 +8,7 @@ import Setup from './pages/Setup/Setup'
 import MyLinks from './pages/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import NotFound from './pages/NotFound/NotFound'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         </div>
         <Footer />
       </BrowserRouter>
+      <Analytics />
     </div>
   )
 }
