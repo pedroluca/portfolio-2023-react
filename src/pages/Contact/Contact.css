@@ -1,17 +1,15 @@
 @import '../../variables.css';
 
 .contact-page section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 3rem;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 1rem;
 }
 
 @media screen and (max-width: 768px) {
   .contact-page section {
-    flex-direction: column;
+    grid-template-columns: 100%;
     gap: 1.5rem;
-    align-items: center;
   }
 }

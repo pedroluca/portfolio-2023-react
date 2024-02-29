@@ -1,8 +1,6 @@
 @import '../../variables.css';
 
 .contact-card {
-  width: 11rem;
-  height: 11rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -37,7 +35,7 @@
 @media screen and (max-width: 768px) {
   .contact-card {
     height: 4rem;
-    width: 95%;
+    width: 100%;
     font-size: 1rem;
     flex-direction: row;
     justify-content: space-between;
