@@ -8,6 +8,7 @@ section#about {
 
 section#about img {
   width: 35%;
+  object-fit: cover;
 }
 
 section#about div {
@@ -48,6 +49,6 @@ blockquote {
   }
 
   section#about img {
-    width: 70%;
+    width: 50%;
   }
 }

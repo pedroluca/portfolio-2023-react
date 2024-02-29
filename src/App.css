@@ -1,7 +1,7 @@
 @import './variables.css';
 
 .App-content {
-  padding: 0 30rem;
+  padding: 0 20%;
 }
 
 @media screen and (max-width: 768px) {

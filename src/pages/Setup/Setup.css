@@ -22,17 +22,16 @@
 }
 
 .setup-holder {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin: 0 1rem;
-}
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 1rem;
+} 
 
 @media screen and (max-width: 768px) {
   .setup-holder {
-    width: 100%;
-    flex-direction: row;
-    gap: 1rem;
+    grid-template-columns: repeat(2, calc((100% - 1rem) / 2));
+    aspect-ratio: 1 / 1;
   }
 
   .contact-card p {

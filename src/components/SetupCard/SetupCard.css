@@ -1,8 +1,6 @@
 @import '../../variables.css';
 
 .setup-card {
-  width: 11rem;
-  height: 11rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -43,8 +41,6 @@
     font-size: 1rem;
     flex-direction: column;
     justify-content: center;
-    width: 10rem;
-    height: 10rem;
     padding-top: 1rem;
   }
 }
