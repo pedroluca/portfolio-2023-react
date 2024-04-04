@@ -27,7 +27,8 @@ function Setup() {
           <h3>Coding</h3>
           <div className="setup-holder">
             <SetupCard src="vscode" social="IDE" user="VS Code" url="https://code.visualstudio.com/" />
-            <SetupCard src="mintheme" social="Tema" user="Min Theme" url="https://marketplace.visualstudio.com/items?itemName=miguelsolorio.min-theme" />
+            <SetupCard src="vesperpptheme" social="Tema" user="Vesper++" url="https://marketplace.visualstudio.com/items?itemName=Obstinate.vesper-pp" />
+            {/* <SetupCard src="mintheme" social="Tema" user="Min Theme" url="https://marketplace.visualstudio.com/items?itemName=miguelsolorio.min-theme" /> */}
             {/* <SetupCard src="omni-dracula" social="Tema 1" user="Omni Dracula" url="https://marketplace.visualstudio.com/items?itemName=ThiagoLcioBittencourt.omni-dracula-theme" /> */}
             {/* <SetupCard src="omni" social="Tema 2" user="Omni" url="https://marketplace.visualstudio.com/items?itemName=rocketseat.theme-omni" /> */}
             <SetupCard src="jetbrains" social="Fonte" user="JetBrains Mono" url="https://www.jetbrains.com/pt-br/lp/mono/" />

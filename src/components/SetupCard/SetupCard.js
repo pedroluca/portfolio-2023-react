@@ -2,6 +2,7 @@
 import './SetupCard.css'
 import JetBrains from '../../images/jetbrains.png'
 import MinTheme from '../../images/min.png'
+import VesperppTheme from '../../images/vesper.png'
 import VSCode from '../../images/vscode.png'
 import Laptop from '../../images/laptop.png'
 import Headset from '../../images/headset.png'
@@ -35,6 +36,7 @@ function SetupCard(props) {
   else if (props.src === 'headset') imagePath = Headset
   else if (props.src === 'mousepad') imagePath = Mousepad
   else if (props.src === 'mintheme') imagePath = MinTheme
+  else if (props.src === 'vesperpptheme') imagePath = VesperppTheme
   else if (props.src === 'jetbrains') imagePath = JetBrains
   else if (props.src === 'vscode') imagePath = VSCode
   else if (props.src === 'codigo') imagePath = CodigoLimpo
