@@ -12,11 +12,11 @@ function Setup() {
         <div className="setup-area">
           <h3>Workstation</h3>
           <div className="setup-holder">
-            <SetupCard src="laptop" social="Laptop" user="Lenovo L340 Gaming" url="https://www.lenovo.com/br/pt/laptops/ideapad/ideapad-gaming-laptops/IdeaPad-L340-15IRH-Gaming/p/88IPL301161" />
+            <SetupCard src="laptop" social="Laptop" user="Samsung Galaxy Book3 360" url="https://www.amazon.com.br/dp/B0C5RY1WG9?psc=1&ref=ppx_yo2ov_dt_b_product_details" />
             <SetupCard src="suporte" social="Suporte p/ Laptop" url="https://pt.aliexpress.com/item/1005005217800671.html?spm=a2g0o.order_list.order_list_main.4.76eecaa4wvymvg&gatewayAdapt=glo2bra" />
             <SetupCard src="headset" social="Headset" user="Razer Kraken Lite" url="https://www.amazon.com.br/gp/product/B07XC936P8/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1" />
             <SetupCard src="headphone" social="Headphone" user="Philips UH202 BT" url="https://www.amazon.com.br/gp/product/B07YNG2L67/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1" />
-            <SetupCard src="earphone1" social="Earpods" user="Lenovo Thinkplus XT88" url="https://pt.aliexpress.com/item/1005005719551043.html?spm=a2g0o.order_list.order_list_main.10.79f0caa43SldAI&gatewayAdapt=glo2bra" />
+            <SetupCard src="earphone1" social="Earpods" user="QCY HT05" url="https://pt.aliexpress.com/item/1005004786288333.html?spm=a2g0o.order_list.order_list_main.73.13fbcaa4fnapqA&gatewayAdapt=glo2bra" />
             <SetupCard src="earphone2" social="Earpods" user="Baseus Encok W04" url="https://www.amazon.com.br/gp/product/B01LYIY2HG/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1" />
             <SetupCard src="mouse1" social="Mouse" user="Baseus F01B Wireless" url="https://pt.aliexpress.com/item/1005005847298347.html?spm=a2g0o.order_list.order_list_main.6.649ecaa4iWc5Ig&gatewayAdapt=glo2bra" />
             <SetupCard src="mouse2" social="Mouse" user="Dell MS3320p" url="https://pt.aliexpress.com/i/1005002494212473.html" />
